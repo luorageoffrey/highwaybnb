@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form class="jotform-form" action="" method="post" name="" id="" accept-charset="utf-8" autocomplete="on">
+    <input type="hidden" name="formID" value="" />
+    <input type="hidden" id="JWTContainer" value="" />
+    <input type="hidden" id="cardinalOrderNumber" value="" />
+    <div role="main" class="form-all">
+
+      <ul class="form-section page-section">
+        <li id="cid_28" class="form-input-wide" data-type="control_head">
+          <div class="form-header-group  header-large">
+            <div class="header-text httal htvam">
+              <h1 id="header_28" class="form-header" data-component="header">
+                Room Booking Form
+              </h1>
+              <div id="subHeader_28" class="form-subHeader">
+                Fill the form below to book the room, specify the guests expected and number of days likely to stay and
+                will get back to you shortly.
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_fullname" id="id_17">
+          <label class="form-label form-label-top form-label-auto" id="label_17" for="first_17">
+            Name
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_17" class="form-input-wide jf-required" data-layout="full">
+            <div data-wrapper-react="true">
+              <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+                <input type="text" id="first_17" name="q17_name[first]" class="form-textbox validate[required]"
+                  data-defaultvalue="" autoComplete="section-input_17 given-name" size="10" value=""
+                  data-component="first" aria-labelledby="label_17 sublabel_17_first" required="" />
+                <label class="form-sub-label" for="first_17" id="sublabel_17_first" 
+                  aria-hidden="false"> First Name </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+                <input type="text" id="last_17" name="q17_name[last]" class="form-textbox validate[required]"
+                  data-defaultvalue="" autoComplete="section-input_17 family-name" size="15" value=""
+                  data-component="last" aria-labelledby="label_17 sublabel_17_last" required="" />
+                <label class="form-sub-label" for="last_17" id="sublabel_17_last" style="min-height:13px"
+                  aria-hidden="false"> Surname </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_email" id="id_24">
+          <label class="form-label form-label-top form-label-auto" id="label_24" for="input_24">
+            E-mail
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_24" class="form-input-wide jf-required" data-layout="half">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="email" id="input_24" name="q24_email24" class="form-textbox validate[required, Email]"
+                data-defaultvalue="" style="width:310px" size="310" value="" placeholder="ex: myname@example.com"
+                data-component="email" aria-labelledby="label_24 sublabel_input_24" required="" />
+              <label class="form-sub-label" for="input_24" id="sublabel_input_24" style="min-height:13px"
+                aria-hidden="false"> example@example.com </label>
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_phone" id="id_20">
+          <label class="form-label form-label-top form-label-auto" id="label_20" for="input_20_full"> Phone Number
+          </label>
+          <div id="cid_20" class="form-input-wide" data-layout="half">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" id="input_20_full" name="q20_phoneNumber20[full]" data-type="mask-number"
+                class="mask-phone-number form-textbox validate[Fill Mask]" data-defaultvalue=""
+                autoComplete="section-input_20 tel-national" style="width:310px" data-masked="true" value=""
+                placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_20" />
+              <label class="form-sub-label is-empty" for="input_20_full" id="sublabel_20_masked" style="min-height:13px"
+                aria-hidden="false"> </label>
+            </span>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_birthdate" id="id_25">
+          <label class="form-label-form-label-top form-label-auto" id="label_25" for="input_25">
+            Arrival Date
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_25" class="form-input-wide jf-required" data-layout="full">
+            <div data-wrapper-react="true">
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <select name="q25_arrivalDate25[month]" id="input_25_month" class="form-dropdown validate[required]"
+                  data-component="birthdate-month" aria-labelledby="label_25 sublabel_25_month">
+                  <option> </option>
+                  <option value="January"> January </option>
+                 
+                </select>
+                <label class="form-sub-label" for="input_25_month" id="sublabel_25_month" style="min-height:13px"
+                  aria-hidden="false"> Month </label>
+              </span>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <select name="q25_arrivalDate25[day]" id="input_25_day" class="form-dropdown validate[required]"
+                  data-component="birthdate-day" aria-labelledby="label_25 sublabel_25_day">
+                  <option> </option>
+                  <option value="1"> 1 </option>
+                  
+                </select>
+                <label class="form-sub-label" for="input_25_day" id="sublabel_25_day" style="min-height:13px"
+                  aria-hidden="false"> Day </label>
+              </span>
+              <span>
+              <label class="form-sub-label" for="input_25_year" id="sublabel_25_year" style="min-height:13px"
+                aria-hidden="false"> Year </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_dropdown" id="id_10">
+          <label class="form-label form-label-top form-label-auto" id="label_10" for="input_10">
+            Number of Nights
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_10" class="form-input-wide jf-required" data-layout="half">
+            <select class="form-dropdown validate[required]" id="input_10" name="q10_numberOf" style="width:310px"
+              data-component="dropdown" required="">
+              <option value=""> Please Select </option>
+              <option value="3"> 3 </option>
+             
+            </select>
+          </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_dropdown" id="id_16">
+          <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16">
+            Number of Guests
+            <span class="form-required">
+              *
+            </span>
+          </label>
+          <div id="cid_16" class="form-input-wide jf-required" data-layout="half">
+            <select class="form-dropdown validate[required]" id="input_16" name="q16_numberOf16" style="width:310px"
+              data-component="dropdown" required="">
+              <option value=""> Please Select </option>
+              <option value="1">2</option>
+             
+            </select>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_textarea" id="id_13">
+          <label class="form-label form-label-top form-label-auto" id="label_13" for="input_13"> Notes </label>
+          <div id="cid_13" class="form-input-wide" data-layout="full">
+            <textarea id="input_13" class="form-textarea" name="q13_notes" style="width:648px;height:163px"
+              data-component="textarea" aria-labelledby="label_13"></textarea>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_button" id="id_2">
+          <div id="cid_2" class="form-input-wide" data-layout="full">
+            <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+              <button id="input_2" type="submit"
+                class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button"
+                data-content="">
+                Send Request
+              </button>
+            </div>
+          </div>
+        </li>
+        <li style="display:none">
+          Should be Empty:
+          <input type="text" name="website" value="" />
+        </li>
+      </ul>
+    </div>
+  </form>
+</body>
+
+</html>
