@@ -5,7 +5,7 @@
 .view-all {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: left;
     padding: 10px;
     margin: 10px;
     /* max-width: 10px; */
@@ -28,6 +28,7 @@ a{
 .view-display > a > img {
     border-radius: 10px;
     height: 200px;
+    width: 300px;
 }
 
 .view-all > div:hover{
@@ -57,6 +58,7 @@ a{
 
 .price{
     margin: 0px;
+    color: black;
 }
 
 .available{
@@ -67,6 +69,7 @@ a{
 
 .details > .rating {
     float: left;
+    color: gray;
 }
 
 
