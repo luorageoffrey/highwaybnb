@@ -2,10 +2,48 @@
     font-family: 'Brush Script MT', cursive;
 }
 
+/*navigation*/
+
+nav{
+    /* background-color: #5a9dfb; */
+    /* height: 60px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+
+
+nav > a {
+
+    text-decoration: none;
+    color: gray;
+    font-size: x-large;
+}
+
+#logo{
+    display: inline;
+    font-size: x-large;
+    margin: 0px;
+    
+}
+
+/* #logo{
+    padding: 0px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: gray;
+} */
+
+nav > a:hover{
+    font-size: 1.6em
+}
+
 .view-all {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: left;
     padding: 10px;
     margin: 10px;
     /* max-width: 10px; */
@@ -21,13 +59,18 @@
 
 }
 
-.view-display > img {
+.view-display >a> img {
     border-radius: 10px;
     height: 200px;
 }
 
-.view-all > div:hover{
+.view-all >   div:hover{
     box-shadow: 4px 4px 4px 4px #ddd;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 .details {
@@ -37,6 +80,7 @@
 }
 
 .details > .name {
+    color: black;
     font-weight: bold;
     font-size: x-large;
     margin: 0;
@@ -44,6 +88,7 @@
 }
 
 .details > .location {
+    color: rgb(32, 32, 0);
     font-size: large;
     margin: 0;
     padding: 0;
