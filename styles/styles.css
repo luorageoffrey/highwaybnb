@@ -21,7 +21,11 @@
 
 }
 
-.view-display > img {
+a{
+    text-decoration: none;
+}
+
+.view-display > a > img {
     border-radius: 10px;
     height: 200px;
 }
@@ -40,10 +44,12 @@
     font-weight: bold;
     font-size: x-large;
     margin: 0;
+    color: black;
 
 }
 
 .details > .location {
+    color: gray;
     font-size: large;
     margin: 0;
     padding: 0;
