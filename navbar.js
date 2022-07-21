@@ -14,7 +14,7 @@ navbar.innerHTML = "<div class=\"navbar\">\n" +
     "      <a href=\"login.html\" class=\"nav-link login-btn-a\">Login</a>\n" +
     "    </li>\n" +
     "    <li class=\"nav-item\">\n" +
-    "      <a href=\"signup.html\" class=\"nav-link signup-btn\">Signup</a>\n" +
+    "      <a href=\"signup.html\" class=\"nav-link signup-btn\">Sign Up</a>\n" +
     "    </li>\n" +
     "  </ul>\n" +
     "</div>"
