@@ -1,16 +1,19 @@
 
- 
-  alert();
-  document.getElementById('button33').onclick = function(){
+
+
+/* function validate(){
+    if(){
 
     }
-
-
-  
-    const element = document.getElementById("button33");
-element.addEventListener("click", myFunction);
-
-function myFunction() {
-  document.getElementById("thank you").innerHTML = "Submitted successfully";
- 
+} */
+let nts = document.getElementById('notes');
+function validate() {
+    if (nts.value === NaN) {
+        alert('Please provide us with some notes')
+    }
+    else {
+        alert("Submitted succesfully.")
+    }
 }
+
+

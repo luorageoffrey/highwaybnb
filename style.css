@@ -21,6 +21,7 @@
 .notes textarea{
     width:648px;height:150px;
     background-color: white;
+    border: 2px solid black;
 
 }
 
@@ -40,7 +41,7 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 4px;
     box-sizing: border-box;
     background-color: white;
@@ -57,4 +58,14 @@ input {
 
 .house1{
     display: flex;
+}
+
+select {
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+select > option {
+    background-color: white;
 }
