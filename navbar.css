@@ -70,4 +70,7 @@
     .navbar .nav-item {
         padding-bottom: 10px
     }
+    #login-btn {
+        margin-bottom: 15px;
+    }
 }
