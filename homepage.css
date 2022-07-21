@@ -30,6 +30,7 @@
     font-weight: bold;
     font-size: large;
     border-radius: 5px;
+    border: none;
     background-color: #198754;
     color: white;
 }
@@ -41,12 +42,18 @@
 .arr-dep {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
-
-.fg label {
-    font-weight: bold;
+.arr-dep input {
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
 }
-
+search {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
 .arr-cont, .dep-cont {
     display: flex;
     flex-direction: column;
